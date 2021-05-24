@@ -30,8 +30,8 @@
 
 .nav__notification {
   position: absolute;
-  left: 15px;
-  bottom: 15px;
+  left: 25px;
+  bottom: 20px;
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 

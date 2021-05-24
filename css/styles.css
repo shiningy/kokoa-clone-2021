@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Itim&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -18,13 +18,72 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/settings.css";
+@import "screens/chats.css";
 @import "screens/chat.css";
 
 body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Indie Flower", cursive;
+  font-family: "Itim", cursive;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.banner img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.wallet {
+  margin: 10px 10px 10px 0;
+  width: 96%;
+  background-color: var(--yellow);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.wallet__row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.wallet__row__column__wallet {
+  width: 50%;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.wallet__row__column__wallet i {
+  margin-left: 5px;
+}
+
+.wallet__row__column__banner {
+  width: 100%;
+  padding: 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.wallet__row__column__bone {
+  display: flex;
+  align-items: center;
+}
+
+.wallet__row__column__bone i {
+  margin-right: 5px;
+}
+
+.wallet__row__column__asset {
+  width: 55%;
 }

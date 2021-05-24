@@ -1,11 +1,13 @@
 .icon-row {
   display: flex;
   justify-content: space-between;
+  margin: 10px 20px;
 }
 
 .icon-row__icon {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
