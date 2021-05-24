@@ -23,10 +23,9 @@
   align-items: center;
 }
 
-.more-suggestions__icon-image {
+.more-suggestions__icon-dogistagram {
   width: 60px;
   height: 60px;
-  background-color: var(--yellow);
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -34,7 +33,27 @@
   margin-bottom: 10px;
 }
 
-.more-suggestions__icon-image i {
-  font-size: 32px;
+.more-suggestions__icon-dogistagram>i {
+  font-size: 60px;
+  color: rgba(51, 154, 240, 1.0);
+}
+
+.more-suggestions__icon-kittybook {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: rgba(0, 28, 64, 1.0);
   color: white;
+}
+
+.more-suggestions__icon-kittybook>i {
+  font-size: 40px;
+}
+
+.more-suggestions__icon-image:last-child {
+  background-color: rgba(0, 28, 64, 1.0);
 }

@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Clone</title>
+    <title>Dogs and Cats - Kokoa Clone</title>
   </head>
   <body>
     <!-- Status bar -->
@@ -24,15 +24,15 @@
     </div>
     <!-- Screen header -->
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">Dogs and Cats</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
+        <span><i class="fas fa-bone fa-lg"></i></span>
         <span><i class="fas fa-cog fa-lg"></i></span>
       </div>
     </header>
     <a id="friends-display-link">
-      <i class="fas fa-info-circle"></i> Friends' Names Display
+      <i class="far fa-bell"></i> Check notifications
       <i class="fas fa-chevron-right fa-xs"></i>
     </a>
     <!-- Main screen -->
@@ -40,15 +40,82 @@
       <div class="user-component">
         <div class="user-component__column">
           <img
-            src="https://avatars3.githubusercontent.com/u/3612017"
+            src="https://www.pethub.com/sites/default/files/home-page/bt-tag-orange-back.png"
             class="user-component__avatar"
           />
           <div class="user-component__text">
-            <h4 class="user-component__title">Nicolas</h4>
+            <h4 class="user-component__title">Eric</h4>
             <!-- <h6 class="user-component__subtitle">this text whatever</h6> -->
           </div>
         </div>
         <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Favorite</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/originals/d6/eb/c8/d6ebc85b036b421b25d115d91fbd1cf9.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Lover💖
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span></span>
+              <!-- <i class="fas fa-chevron-right fa-xs"></i> -->
+            </div>
+          </div>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://i.pinimg.com/originals/51/2c/2d/512c2df42555717bad4833fb49cfd4bd.jpg"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">Dude</h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span></span>
+              <!-- <i class="fas fa-chevron-right fa-xs"></i> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Recommended</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://miro.medium.com/max/545/1*UNf6kxqv_ujIjKoMI0q97A.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Meet new dogs!
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span>13</span>
+              <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="friends-screen__channel">
         <div class="friends-screen__channel-header">
@@ -58,19 +125,43 @@
         <div class="user-component">
           <div class="user-component__column">
             <img
-              src="https://avatars3.githubusercontent.com/u/3612017"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1j1k3Af9NGRjgY4xWqcUkN73MmsVy3l-vz_r37Rc_CcMhRcI&s"
               class="user-component__avatar user-component__avatar--sm"
             />
             <div class="user-component__text">
               <h4 class="user-component__title user-component__title--not-bold">
-                Channel
+                To the moon!
               </h4>
             </div>
           </div>
           <div class="user-component__column">
             <div>
-              <span>2</span>
+              <span>5k</span>
               <i class="fas fa-chevron-right fa-xs"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel-header">
+          <span>Dog and Cats</span>
+          <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="https://www.rhodehomerescue.org/wp-content/uploads/2019/02/home-donate.png"
+              class="user-component__avatar user-component__avatar--sm"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title user-component__title--not-bold">
+                Jake
+              </h4>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <div>
+              <span></span>
             </div>
           </div>
         </div>
@@ -80,29 +171,31 @@
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
-          <a class="nav__link" href="#"><i class="fas fa-user fa-2x"></i></a>
+          <a class="nav__link" href="#"><i class="fas fa-dog fa-3x"></i></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
-            <span class="nav__notification badge">1</span>
-            <i class="far fa-comment fa-2x"></i>
+            <span class="nav__notification badge">23</span>
+            <i class="far fa-comment fa-3x"></i>
           </a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="find.html"
-            ><i class="fas fa-search fa-2x"></i
+            ><i class="fas fa-search fa-3x"></i
           ></a>
         </li>
         <li class="nav__btn">
           <a class="nav__link" href="more.html"
-            ><i class="fas fa-ellipsis-h fa-2x"></i
+            ><i class="fas fa-ellipsis-h fa-3x"></i
           ></a>
         </li>
       </ul>
     </nav>
     <!-- Splash screen -->
     <div id="splash-screen">
-      <i class="fas fa-comment"></i>
+      <div class="dogistagram__icon">
+        <i class="fas fa-dog"></i>
+      </div>
     </div>
 
     <div id="no-mobile">
